@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1904101541358577688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1904101541358577694}
+  - component: {fileID: 1904101541358577689}
+  m_Layer: 0
+  m_Name: GeopipeModelEngine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1904101541358577694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904101541358577688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904101541358577689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904101541358577688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731e4aa533f7aaf4cbda8acdee6c5447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  APIKey: 
+  latitude: 40.730476
+  longitude: -73.99777
+  height: 16
+  generateCollisionMeshes: 0
+  minimumVisibleLOD: 14
+  maximumLOD: 14
+  maximumScreenSpaceError: 64
+  cacheDirectoriesOnDisk: 1
+  cacheModelsOnDisk: 1
+  cacheObjectsOnDisk: 1
+  cameraObject: {fileID: 0}
+  treePrefabs:
+  - {fileID: 8771091787928289351, guid: 16c8ee58f150ab649a5bc12f2f704aca, type: 3}
+  - {fileID: 8771091787928289351, guid: 27cf61bc97ff9754bb24735620183592, type: 3}
+  - {fileID: 8771091787928289351, guid: d3547d6f56844fb4fbccec8ea79b7e80, type: 3}
+  - {fileID: 8771091787928289351, guid: b06a414f60b432f479fa2542f2c20f98, type: 3}
+  - {fileID: 8771091787928289351, guid: 03515370223680244934bc77fd046921, type: 3}
+  - {fileID: 8771091787928289351, guid: 050cdb28efa0a4845bd080e0e4648870, type: 3}
+  WorldObjectPrefabs:
+  - Name: bench
+    Prefab: {fileID: 8771091787928289351, guid: 92f40bee8b1836b4185bf9f14c9b689c, type: 3}
+  - Name: bus_shelter
+    Prefab: {fileID: 8771091787928289351, guid: f3a5110b770780143a3eca5757c81fab, type: 3}
+  - Name: bus_stop
+    Prefab: {fileID: 8771091787928289351, guid: 4d8d8557cce511046b9a688f49147e29, type: 3}
+  - Name: collection_box
+    Prefab: {fileID: 8771091787928289351, guid: e9ac0f3220287d94c97ab4547fb8df09, type: 3}
+  - Name: hydrant
+    Prefab: {fileID: 8771091787928289351, guid: ec70ec76490f047409d6a3e384c7090e, type: 3}
+  - Name: subway_entrance
+    Prefab: {fileID: 8771091787928289351, guid: ee43233ca0d4c2c419ff631ccea54830, type: 3}
+  - Name: telecom_kiosk
+    Prefab: {fileID: 8771091787928289351, guid: 711091e2ea94ea24db6c6fc1dbc462a8, type: 3}
+  - Name: waste_receptacle
+    Prefab: {fileID: 8771091787928289351, guid: be847af507bd93948bfe462c286d631c, type: 3}
+  - Name: street_sign
+    Prefab: {fileID: 8771091787928289351, guid: c64ea02ed6c9f8e448dee7021a35952c, type: 3}
